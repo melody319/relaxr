@@ -17,7 +17,7 @@ body {
     /* position: absolute;
     top: 10px;
     left: 8%;  */
-    margin: 20px 0 0 60px;
+    margin: 0 0 0 60px;
     font-size: 24px;
     font-weight: 800;
     color: white;
@@ -170,5 +170,126 @@ h3 {
     margin: 30px auto 0 auto;
     display: block;
     width:50px;
+}
 
+.header-blog {
+    overflow: auto;
+    margin: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: #033048;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation {
+    margin: 0 100px 0 60px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigationlink {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f9e42e;
+    text-decoration: none;
+}
+
+.body-blog {
+    overflow: auto;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    background-color: #f0efef;
+    display: flex;
+    justify-content: center;
+}
+
+.maincolumn {
+    overflow: auto;
+    margin: 20px 80px 80px 60px;
+    width: 700px;
+    height: auto;
+}
+
+.sidebar {
+    overflow: auto;
+    margin: 20px 60px 80px 20px;
+    width: 240px;
+    height: auto;
+}
+
+.article {
+    border-bottom: 1px solid #606161;
+    padding: 20px;
+}
+
+.articletitle {
+    font-size: 40px;
+    font-weight: 600;
+    color: #033048;
+}
+
+.articlecontent {
+    font-size: 24px;
+    font-weight: 300;
+    color: #606161;
+}
+
+.articlelink {
+    font-size: 24px;
+    font-weight: 600;
+    color: #033048;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.categories {
+
+
+}
+
+.about {
+
+
+}
+
+.sidebarheading {
+    font-size: 32px;
+    font-weight: 800;
+    color: #033048;
+    margin-bottom: 20px;
+}
+
+.categorylist {
+
+}
+
+.categorylinks {
+    font-size: 24px;
+    font-weight: 300;
+    color: #033048;
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;   
+}
+
+.abouttext {
+    font-size: 22px;
+    font-weight: 300;
+    color: #033048;
+    margin: 0;
+}
+
+.aboutlink {
+    font-size: 22px;
+    font-weight: 600;   
+    color: #033048;
+}
+
+.adunit {
+    margin-top: 80px;
 }
